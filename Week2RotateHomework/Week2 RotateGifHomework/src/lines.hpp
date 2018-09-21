@@ -9,5 +9,24 @@
 #define lines_hpp
 
 #include <stdio.h>
+#include "ofMain.h"
+
+
+
+class lines {
+    
+public:
+    
+    void setup();
+    void update();
+    void draw(float mPct);
+    
+    lines();
+    float x;
+    
+    float mPct;
+    
+};
+
 
 #endif /* lines_hpp */

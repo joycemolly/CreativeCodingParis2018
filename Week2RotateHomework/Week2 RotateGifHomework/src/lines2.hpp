@@ -7,7 +7,21 @@
 
 #ifndef lines2_hpp
 #define lines2_hpp
-
+#include "ofMain.h"
 #include <stdio.h>
 
+class lines2 {
+    
+public:
+    
+    void setup();
+    void update();
+    void draw(float mPct);
+    
+    lines2();
+    float x;
+    
+    float mPct;
+    
+};
 #endif /* lines2_hpp */

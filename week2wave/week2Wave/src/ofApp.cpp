@@ -62,6 +62,7 @@ void ofApp::draw(){
 //        float x =ofGetWidth()/2+(i*.5)*cos(angle);
 //        float y =ofGetHeight()/2+(i*.5)*sin(angle);
 //        ofDrawCircle(x, y, 20);
+//    }
     
     ofSetRectMode(OF_RECTMODE_CENTER);
     float targetAngle = atan2(mouseY-ofGetHeight()/2, mouseX-ofGetWidth()/2);
@@ -74,9 +75,7 @@ void ofApp::draw(){
     
     
     
-    
-    
-    
+
 
 }
 
