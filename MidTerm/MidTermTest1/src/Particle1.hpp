@@ -1,13 +1,21 @@
-//
-//  Particle1.hpp
-//  MidTermTest1
-//
-//  Created by 郑晴 on 9/28/18.
-//
+#pragma once
+#include "ofMain.h"
 
-#ifndef Particle1_hpp
-#define Particle1_hpp
 
-#include <stdio.h>
+class Particle1 : public ofBaseApp{
+    
+public:
+    void setup(ofPoint _pos);
+    void update();
+    void draw();
+    void grow();
+    void interferece( ofPoint _pos);
 
-#endif /* Particle1_hpp */
+    ofPoint pos;
+    float radius;
+    int color;
+    
+    float radius2;
+    float counter;
+    bool color1;
+};

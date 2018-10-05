@@ -36,6 +36,7 @@ class ofApp : public ofBaseApp{
     
     float d;
     vector <Light> light;
+    
 
 
 

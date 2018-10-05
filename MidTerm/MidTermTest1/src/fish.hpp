@@ -1,13 +1,38 @@
-//
-//  fish.hpp
-//  MidTermTest1
-//
-//  Created by 郑晴 on 10/4/18.
-//
+#pragma once
+#include "ofMain.h"
 
-#ifndef fish_hpp
-#define fish_hpp
 
-#include <stdio.h>
+class fish : public ofBaseApp{
+    
+public:
+    void setup(ofPoint _pos);
+    void update();
+    void draw();
+    
+    ofPoint pos;
+    ofPoint vel;
+    ofPoint acc;
+    float noiseIndex;
+    float noiseIndey;
+    
+    ofPoint noise;
+    
+    ofPoint counter;
+    ofPoint center;
 
-#endif /* fish_hpp */
+    ofPoint finalPos;
+
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+};

@@ -1,13 +1,41 @@
-//
-//  babyFish.hpp
-//  MidTermTest1
-//
-//  Created by 郑晴 on 10/4/18.
-//
+#pragma once
+#include "ofMain.h"
 
-#ifndef babyFish_hpp
-#define babyFish_hpp
 
-#include <stdio.h>
+class babyFish : public ofBaseApp{
+    
+public:
+    void setup(ofPoint _pos);
+    void update();
+    void draw();
+    
+    ofPoint pos;
+    ofPoint vel;
+    ofPoint acc;
+    float noiseIndex;
+    float noiseIndey;
+    
+    ofPoint noise;
+    
+    ofPoint counter;
+    ofPoint center;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+};
 
-#endif /* babyFish_hpp */

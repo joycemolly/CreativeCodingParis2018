@@ -1,13 +1,58 @@
-//
-//  biggerFish.hpp
-//  MidTermTest1
-//
-//  Created by 郑晴 on 10/4/18.
-//
+#pragma once
+#include "ofMain.h"
+#include "fish.hpp"
+#include "babyFish.hpp"
 
-#ifndef biggerFish_hpp
-#define biggerFish_hpp
 
-#include <stdio.h>
 
-#endif /* biggerFish_hpp */
+
+class bigFish : public ofBaseApp{
+    
+public:
+    void setup(ofPoint _pos);
+    void update(ofPoint _pos);
+//    void update(vector<fish> fishes);
+    void draw();
+    void grow();
+
+    
+    ofPoint pos;
+    ofPoint vel;
+    ofPoint acc;
+    float noiseIndex;
+    float noiseIndey;
+    
+    ofPoint noise;
+    
+    ofPoint counter;
+    ofPoint center;
+   
+    ofPoint p;
+    float r;
+    
+    vector<fish> moreFishes;
+    fish f;
+    
+    ofColor color;
+    bool eat = false;
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+};
+

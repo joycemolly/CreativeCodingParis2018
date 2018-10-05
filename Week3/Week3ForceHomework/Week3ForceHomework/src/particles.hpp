@@ -21,6 +21,9 @@ public:
     
     ofImage img;
     float angle;
+    
+    float counter;
+
 
 
 };

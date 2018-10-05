@@ -1,13 +1,22 @@
-//
-//  particles.hpp
-//  Week4NoiseHomework
-//
-//  Created by 郑晴 on 9/28/18.
-//
+#pragma once
+#include "ofMain.h"
 
-#ifndef particles_hpp
-#define particles_hpp
 
-#include <stdio.h>
-
-#endif /* particles_hpp */
+class PixelParticle{
+public:
+    void setup(ofPoint _pos, ofColor _color, float _size);
+    void update();
+    void draw();
+    bool isDone();
+    
+    float size;
+    ofColor color;
+    ofPoint homePos;
+    ofPoint noiseOffset;
+    ofPoint vel;
+    ofPoint acc;
+    
+    float xNoiseIndex;
+    float yNoiseIndex;
+    
+};

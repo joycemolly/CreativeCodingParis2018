@@ -54,6 +54,7 @@ void ofApp::update(){
         light[i].update();
     }
     
+    
  
 }
 
