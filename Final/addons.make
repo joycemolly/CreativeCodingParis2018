@@ -1,0 +1,9 @@
+ofxBox2d
+ofxGui
+ofxHTTP
+ofxIO
+ofxJSON
+ofxMediaType
+ofxNetworkUtils
+ofxPoco
+ofxSSLManager
